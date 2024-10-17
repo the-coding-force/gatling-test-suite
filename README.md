@@ -26,8 +26,6 @@ gatling-test-suite/
 
 - **Módulos**: Cada diretório (por exemplo, `project-a`, `project-b`) representa um módulo separado com suas próprias simulações e configurações de teste Gatling.
 - **Módulo de Template**: A pasta `template/` serve como um modelo para a criação de novos módulos. Quando for criar um novo módulo, copie os itens deste diretório e personalize conforme necessário.
-- **Configurações Globais**: A pasta `global-resources/` contém configurações do Gatling compartilhadas entre todos os módulos.
-- **Scripts de Automação**: `setup.sh` prepara o ambiente para os testes, enquanto `run_tests.sh` permite a execução de testes de forma modular.
 
 ## Adicionando um Novo Módulo de Testes
 
@@ -41,7 +39,6 @@ gatling-test-suite/
 
 1. Adicione uma pasta `simulations/` para armazenar os scripts de simulação do Gatling.
 2. Inclua um `build.gradle` com as dependências do Gatling.
-3. Se necessário, crie um `gatling.conf` específico no módulo, ou utilize as configurações de `global-resources/`.
 
 ## Executando Testes
 
