@@ -7,30 +7,23 @@ Este repositório é organizado como um projeto multi-módulo no qual cada módu
 ```
 gatling-test-suite/
 ├── project-a/
-│   ├── src/
+│   ├── src/gatling/kotlin
 │   ├────── simulations/
 │   ├── resources/
 │   └── build.gradle
 ├── project-b/
-│   ├── src/
+│   ├── src/gatling/kotlin
 │   ├────── simulations/
-│   ├── resources/
 │   └── build.gradle
 ├── template/
-│   ├── src/
+│   ├── src/src/gatling/kotlin
 │   ├────── simulations/
-│   ├── resources/
 │   └── build.gradle
 ├── global-resources/
 │   └── gatling.conf
-├── setup.sh
-├── run_tests.sh
 ├── README.md
-└── .github/
-    └── workflows/
-        └── gatling-tests.yml
-
-
+├── build.gradle
+├── settings.gradle
 
 ```
 
@@ -45,6 +38,7 @@ gatling-test-suite/
 
 1. No IntelliJ IDEA, adicione um novo módulo ao projeto multi-módulo. Nomeie o módulo conforme o repositório correspondente (por exemplo, `project-c`).
 2. Copie a estrutura e arquivos do diretório `template/` para o novo módulo.
+3. **Adicione o novo módulo no `includes` do arquivo `settings.gradle.kts` na raiz do projeto para funcionar.**
 
 ### Configurar Simulações e Dependências
 
