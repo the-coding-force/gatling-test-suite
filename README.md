@@ -9,7 +9,6 @@ gatling-test-suite/
 ├── project-a/
 │   ├── src/gatling/kotlin
 │   ├────── simulations/
-│   ├── resources/
 │   └── build.gradle
 ├── project-b/
 │   ├── src/gatling/kotlin
@@ -19,8 +18,6 @@ gatling-test-suite/
 │   ├── src/src/gatling/kotlin
 │   ├────── simulations/
 │   └── build.gradle
-├── global-resources/
-│   └── gatling.conf
 ├── README.md
 ├── build.gradle
 ├── settings.gradle
