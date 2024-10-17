@@ -8,17 +8,17 @@ Este repositório é organizado como um projeto multi-módulo no qual cada módu
 gatling-test-suite/
 ├── project-a/
 │   ├── src/
-│   ├── simulations/
+│   ├────── simulations/
 │   ├── resources/
 │   └── build.gradle
 ├── project-b/
 │   ├── src/
-│   ├── simulations/
+│   ├────── simulations/
 │   ├── resources/
 │   └── build.gradle
 ├── template/
 │   ├── src/
-│   ├── simulations/
+│   ├────── simulations/
 │   ├── resources/
 │   └── build.gradle
 ├── global-resources/

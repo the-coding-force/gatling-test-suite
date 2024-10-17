@@ -1,3 +1,5 @@
+package simulations
+
 import io.gatling.javaapi.core.CoreDsl.atOnceUsers
 import io.gatling.javaapi.core.CoreDsl.scenario
 import io.gatling.javaapi.core.Simulation
